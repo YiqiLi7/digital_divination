@@ -1,0 +1,130 @@
+
+body {
+    font-family: "Helvetica", monospace;
+    margin: 2em;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url("background0.png");
+     background-repeat: no-repeat;
+    background-size: 100%;
+  /* background-color: #FEFCF3; */
+  }
+/*  .content-box {
+    columns: 2;
+    margin-right: 70px;
+  }*/
+  
+  @font-face {
+  font-family: myFirstFont;
+  src: url(Chinese.TTF);
+}
+
+
+  h1 {
+     font-family: myFirstFont;
+      position: absolute;
+      top: 10%;
+     left: 36%;
+      color:black;
+      font-weight: bolder;
+      font-size: 120pt;
+  }
+
+  h2 {
+       font-family: myFirstFont;
+       position: absolute;
+       top: 25%;
+       left: 36%;
+       color:black;
+       font-weight: bolder;
+       font-size: 120pt;
+  }
+
+
+  h3{
+    font-family: myFirstFont;
+    position: absolute;
+    top: 60%;
+    left: 34%;
+    color:black;
+    font-weight: bolder;
+    font-size: 18pt;
+  }
+  
+  h4{
+      color: black;
+      font-weight: lighter;
+      font-size: 18pt;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      position: absolute;
+      top: 50%;
+      left: 92%;
+  }
+  
+  p {
+    color: #000;
+    /* background-color: blue; */
+    font-size: 22pt;
+    /* position: absolute;
+    top: 55%;
+    left: 50%; */
+    /* transform: translate(-50%,-50%); */
+  }
+
+  .wrapingimage  
+{  
+float: left;   
+margin: 30px 12px 3px 4px;   
+}   
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000;
+  position: absolute;
+  top: 70%;
+  left: 43%;
+}
+
+.button1:hover {
+  background-color: #000;
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 43%;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+  /* font-size: 20px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  

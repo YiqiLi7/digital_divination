@@ -1,0 +1,21 @@
+<div id="container">
+    <span id="text1"></span>
+    <span id="text2"></span>
+    <link rel="stylesheet" href="style1.css">
+    <script src="page1.js"></script>
+</div>
+
+<svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                  0 1 0 0 0
+                  0 0 1 0 0
+                  0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg>
+
+<body>
+    <button class="button button1" onclick="window.location.href='ear1.html'">Continue</button>
+</body>
